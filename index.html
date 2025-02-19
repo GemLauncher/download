@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HQLauncher Download</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="container">
+    <div class="download-section">
+      <div class="verified-badge">
+        <i class="fas fa-shield-check" style="color: #00ff88"></i>
+        File Verified & Virus-Free
+      </div>
+      <div class="card">
+        <i class="fas fa-gamepad"></i>
+        <h2>HQLauncher</h2>
+        <p>Advanced Game Launcher</p>
+        <div class="stats">
+          <div class="stat-item">
+            <i class="fas fa-star" style="color: #ffd700"></i>
+            4.97
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-download"></i>
+            21,589
+          </div>
+        </div>
+        <button onclick="showInstructions()" class="download-btn">
+          Download Now
+        </button>
+      </div>
+    </div>
+    <div class="instructions" id="instructions">
+      <h3>Installation Instructions</h3>
+      <ol>
+        <li>Unzip Archive</li>
+        <li>
+          <div class="password-container">
+            Use Password: <span id="password">2025</span>
+            <button class="copy-btn" onclick="copyPassword()">Copy</button>
+          </div>
+        </li>
+        <li>Open Launcher.exe</li>
+        <li>Select Game</li>
+        <li>Press Inject</li>
+      </ol>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
